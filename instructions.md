@@ -11,25 +11,7 @@ Fine particulate matter (PM2.5) is an ambient air pollutant for which there is s
 
 For each year and for each type of PM source, the NEI records how many tons of PM2.5 were emitted from that source over the course of the entire year. The data that we will use for this application are for 1999, 2002, 2005, and 2008.
   
-  
-#### Who is this for?
 
-***If you are:*** 
-* Looking to move to a new town with better air quality?  
-* Or concerned about the air quality of your current town?  
-* But don't know how to get the information?  
-  
-***The App can help...***   
- 
-In a nutshell, this application provides a comparative overview of fine particle (PM2.5) emissions in the United States.
-
-- **Walk-Up-And-Use** type App (i.e. no training needed)  
-- A **Color-Coded USA map** with shades based on emissions
-- With **One Click** you can drill down to a state and see all info
-- Plots showing **emission trend** for your state of choice
-- Easy access to **Supporting data** for curious users
-   
-  
 ## Instructions
 
 #### How to use?

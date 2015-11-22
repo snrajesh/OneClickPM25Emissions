@@ -25,7 +25,7 @@ shinyUI(fluidPage(#theme = "bootstrap.css",
             #p("Visit the ", strong("What is the receipe?", style = "color: darkgreen"), " tab to see how it is made."),
             h4("Ready to try?", style = "color: steelblue"),
             # display US map with states shaded based on emission
-            plotOutput("USmap"), #, width = "100%", height = "400px"), #plotlyOutput("myPlot3"),
+            plotOutput("USmap"), #, width = "100%", height = "400px"), 
             helpText("Want to see the details of your state?"),
             selectInput('stateCode', 'Select a State from below:', states$stateCode),
             #submitButton('Submit'),
@@ -43,15 +43,14 @@ shinyUI(fluidPage(#theme = "bootstrap.css",
                          plotlyOutput("countyPlot"),
                          br(),
                          #showOutput("barPlot"),
-                         #chartOutput("barPlot"),
-                         #br(),
-                         h4('Liner Regression Model: '),
+                         h4('Linear Regression Model: '),
                          verbatimTextOutput("model")
                 ),
-                tabPanel("Documentation",includeMarkdown("instructions.md")),
                 tabPanel("Emissions Data",dataTableOutput("countyTable")),
-                tabPanel("All Data",dataTableOutput("allTable"))
-                #,tabPanel("What is the receipe?",includeMarkdown("prompt.Rmd"))
+                tabPanel("All Data",dataTableOutput("allTable")),
+                tabPanel("Documentation",includeMarkdown("instructions.md")),
+                #tabPanel("Why use this?",includeMarkdown("OneClickPM25Emissions.md")),
+                tabPanel("What is the receipe?",includeMarkdown("readme.md"))
             )
         )
     )
